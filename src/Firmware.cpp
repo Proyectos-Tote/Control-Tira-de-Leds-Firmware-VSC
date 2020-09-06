@@ -159,21 +159,20 @@
 #include <EEPROM.h>
 #include <time.h>
 
-// Librerías clonadas desde Git. 
-#include "C:\Users\Antonio\OneDrive\MIS COSAS\Proyectos Electronica\Arduino\Librerias_desde_Git\WiFiManager\WiFiManager.cpp"
-#include "C:\Users\Antonio\OneDrive\MIS COSAS\Proyectos Electronica\Arduino\Librerias_desde_Git\pubsubclient\src\PubSubClient.cpp"
-#include "C:\Users\Antonio\OneDrive\MIS COSAS\Proyectos Electronica\Arduino\Librerias_desde_Git\Time\Time.cpp"
-#include "C:\Users\Antonio\OneDrive\MIS COSAS\Proyectos Electronica\Arduino\Librerias_desde_Git\DHTesp\DHTesp.cpp"
-
-
+// Includes desde la carpeta lib hacia submódulos de bibliotecas que están en github.
+#include "..\lib\WiFiManager\WiFiManager.cpp"
+#include "..\lib\pubsubclient\src\PubSubClient.cpp"
+#include "..\lib\Time\Time.cpp"
+#include "..\lib\DHTesp\DHTesp.cpp"
 
 // Librerías propias. Se encuentran disponibles en https://github.com/MisLibrerias
-#include "C:\Users\Antonio\OneDrive\MIS COSAS\Proyectos Electronica\Arduino\Mis_Librerias\ToteDebouncedBtn\ToteDebouncedBtn.cpp"
+//#include "C:\Users\Antonio\OneDrive\MIS COSAS\Proyectos Electronica\Arduino\Mis_Librerias\ToteDebouncedBtn\ToteDebouncedBtn.cpp"
 #include "C:\Users\Antonio\OneDrive\MIS COSAS\Proyectos Electronica\Arduino\Mis_Librerias\ToteBlinkOutputLed\ToteBlinkOutputLed.cpp"
 #include "C:\Users\Antonio\OneDrive\MIS COSAS\Proyectos Electronica\Arduino\Mis_Librerias\ToteAsyncDelay\ToteAsyncDelay.cpp"
 #include "C:\Users\Antonio\OneDrive\MIS COSAS\Proyectos Electronica\Arduino\Mis_Librerias\ToteNeo\ToteNeoV3.0.cpp"
 #include "C:\Users\Antonio\OneDrive\MIS COSAS\Proyectos Electronica\Arduino\Mis_Librerias\ToteAnalogSensor\ToteAnalogSensor.cpp"
 
+#include "..\lib\ToteDebouncedBtn\ToteDebouncedBtn.cpp"
 
 // IMPORTANTE. VER INFORMACIÓN SOBRE EL WDT en la clase ToteESPMillisDelay
 #include "C:\Users\Antonio\OneDrive\MIS COSAS\Proyectos Electronica\Arduino\Mis_Librerias\ToteESPMillisDelay\ToteESPMillisDelay.cpp"
