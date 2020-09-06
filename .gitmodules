@@ -1,0 +1,24 @@
+[submodule "lib/WiFiManager"]
+	path = lib/WiFiManager
+	url = https://github.com/tzapu/WiFiManager.git
+[submodule "lib/pubsubclient"]
+	path = lib/pubsubclient
+	url = https://github.com/knolleary/pubsubclient.git
+[submodule "lib/Time"]
+	path = lib/Time
+	url = https://github.com/PaulStoffregen/Time.git
+[submodule "lib/DHTesp"]
+	path = lib/DHTesp
+	url = https://github.com/beegee-tokyo/DHTesp.git
+[submodule "lib/ToteDebounceBtn"]
+	path = lib/ToteDebounceBtn
+	url = https://github.com/MisLibrerias/ToteDebounceBtn.git
+[submodule "lib/ToteAsyncDelay"]
+	path = lib/ToteAsyncDelay
+	url = https://github.com/MisLibrerias/ToteAsyncDelay.git
+[submodule "ToteDebouncedBtn"]
+	path = ToteDebouncedBtn
+	url = https://github.com/MisLibrerias/ToteDebouncedBtn.git
+[submodule "lib/ToteDebouncedBtn"]
+	path = lib/ToteDebouncedBtn
+	url = https://github.com/MisLibrerias/ToteDebouncedBtn.git
